@@ -1,0 +1,1200 @@
+2020-09-17 13:28:48,849 ERROR 3336 nodejs.ClusterClientNoResponseError: client no response in 6111048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 3336
+hostname: PC-20200411YPTD
+
+2020-09-17 17:56:09,076 ERROR 4712 nodejs.ClusterClientNoResponseError: client no response in 895503ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 4712
+hostname: PC-20200411YPTD
+
+2020-09-18 13:29:03,529 ERROR 1256 nodejs.ClusterClientNoResponseError: client no response in 6222930ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1256
+hostname: PC-20200411YPTD
+
+2020-09-18 18:26:35,378 ERROR 9872 nodejs.ClusterClientNoResponseError: client no response in 4228281ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9872
+hostname: PC-20200411YPTD
+
+2020-09-18 19:13:37,528 ERROR 3180 [-/127.0.0.1/-/4ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3180
+hostname: PC-20200411YPTD
+
+2020-09-18 19:15:15,671 ERROR 3180 [-/127.0.0.1/-/2ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3180
+hostname: PC-20200411YPTD
+
+2020-09-18 19:16:17,442 ERROR 3180 [-/127.0.0.1/-/3ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3180
+hostname: PC-20200411YPTD
+
+2020-09-18 19:16:46,099 ERROR 3180 [-/127.0.0.1/-/2ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3180
+hostname: PC-20200411YPTD
+
+2020-09-18 19:17:36,614 ERROR 3180 [-/127.0.0.1/-/249ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3180
+hostname: PC-20200411YPTD
+
+2020-09-18 19:18:55,797 ERROR 3180 [-/127.0.0.1/-/2ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3180
+hostname: PC-20200411YPTD
+
+2020-09-18 21:38:02,950 ERROR 9872 nodejs.ClusterClientNoResponseError: client no response in 871262ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9872
+hostname: PC-20200411YPTD
+
+2020-09-20 18:39:36,906 ERROR 4400 [-/127.0.0.1/-/74ms POST /user/upload] nodejs.TypeError: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:432:10)
+    at Object.readFileSync (fs.js:342:35)
+    at UserService.upload (F:\111111实训一\练习\day9.8\server\app\service\user.js:40:27)
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:125:48)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 4400
+hostname: PC-20200411YPTD
+
+2020-09-20 19:16:21,806 ERROR 7400 [-/127.0.0.1/-/16ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 7400
+hostname: PC-20200411YPTD
+
+2020-09-20 19:17:33,453 ERROR 7400 [-/127.0.0.1/-/2ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 7400
+hostname: PC-20200411YPTD
+
+2020-09-20 19:19:37,388 ERROR 7812 [-/127.0.0.1/-/148ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 7812
+hostname: PC-20200411YPTD
+
+2020-09-20 19:20:16,277 ERROR 5928 [-/127.0.0.1/-/66ms POST /user/upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at UserController.upload (F:\111111实训一\练习\day9.8\server\app\controller\user.js:124:35)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 5928
+hostname: PC-20200411YPTD
+
+2020-09-21 09:13:31,298 ERROR 5892 [-/127.0.0.1/-/143ms DELETE /product/type/del] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select *  from type  tid=?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select *  from type  tid=?"
+name: "ER_PARSE_ERRORError"
+pid: 5892
+hostname: PC-20200411YPTD
+
+2020-09-21 09:16:03,846 ERROR 5892 [-/127.0.0.1/-/6ms DELETE /product/type/del?tid=7] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select *  from type  tid=?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select *  from type  tid=?"
+name: "ER_PARSE_ERRORError"
+pid: 5892
+hostname: PC-20200411YPTD
+
+2020-09-21 09:16:33,533 ERROR 5892 [-/127.0.0.1/-/10ms DELETE /product/type/del?tid=7] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select *  from type  tid=?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select *  from type  tid=?"
+name: "ER_PARSE_ERRORError"
+pid: 5892
+hostname: PC-20200411YPTD
+
+2020-09-21 09:18:56,200 ERROR 5892 [-/127.0.0.1/-/5ms DELETE /product/type/del?tid=7] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select *  from type  tid=?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select *  from type  tid=?"
+name: "ER_PARSE_ERRORError"
+pid: 5892
+hostname: PC-20200411YPTD
+
+2020-09-21 09:19:28,285 ERROR 8364 [-/127.0.0.1/-/12ms DELETE /product/type/del?tid=7] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select *  from type  tid=?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select *  from type  tid=?"
+name: "ER_PARSE_ERRORError"
+pid: 8364
+hostname: PC-20200411YPTD
+
+2020-09-21 09:24:07,208 ERROR 2224 [-/127.0.0.1/-/9ms DELETE /product/type/del?tid=7] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='7'' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from type tid='7'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='7'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from type tid='7'"
+name: "ER_PARSE_ERRORError"
+pid: 2224
+hostname: PC-20200411YPTD
+
+2020-09-21 09:25:15,222 ERROR 7564 [-/127.0.0.1/-/14ms DELETE /product/type/del?tid=7] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=7' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from type tid=7
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=7' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select * from type tid=7"
+name: "ER_PARSE_ERRORError"
+pid: 7564
+hostname: PC-20200411YPTD
+
+2020-09-21 09:27:59,079 ERROR 6160 [-/127.0.0.1/-/14ms POST /product/sort/add] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '6' for key 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into sort (s_text,t_type,s_type) values ('汽车加油',0,6)
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry '6' for key 1"
+sqlState: "23000"
+index: 0
+sql: "insert into sort (s_text,t_type,s_type) values ('汽车加油',0,6)"
+name: "ER_DUP_ENTRYError"
+pid: 6160
+hostname: PC-20200411YPTD
+
+2020-09-21 13:27:53,755 ERROR 3928 nodejs.ClusterClientNoResponseError: client no response in 6107953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 3928
+hostname: PC-20200411YPTD
+
+2020-09-22 21:40:36,324 ERROR 4740 [-/127.0.0.1/-/34ms POST /user/codelogin] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'mobile' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from login where mobile=NULL
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'mobile' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from login where mobile=NULL"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4740
+hostname: PC-20200411YPTD
+
+2020-09-22 21:42:14,014 ERROR 4740 [-/127.0.0.1/-/69ms POST /user/codelogin] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'mobile' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from login where mobile='13031061118'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'mobile' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from login where mobile='13031061118'"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4740
+hostname: PC-20200411YPTD
+
+2020-09-22 21:42:58,426 ERROR 1256 [-/127.0.0.1/-/112ms POST /user/codelogin] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'mobile' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: select * from login where mobile=13031061118
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'mobile' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from login where mobile=13031061118"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 1256
+hostname: PC-20200411YPTD
+
+2020-09-23 09:40:38,430 ERROR 6840 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6840
+hostname: PC-20200411YPTD
+
+2020-09-23 13:27:44,564 ERROR 6840 nodejs.ClusterClientNoResponseError: client no response in 6098567ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 6840
+hostname: PC-20200411YPTD
+
+2020-09-23 19:48:21,409 ERROR 3580 [-/127.0.0.1/-/47ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIKE '%哈哈%'' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE '%哈哈%' OR desc LIKE '%哈哈%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIKE '%哈哈%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE '%哈哈%' OR desc LIKE '%哈哈%'"
+name: "ER_PARSE_ERRORError"
+pid: 3580
+hostname: PC-20200411YPTD
+
+2020-09-23 19:55:23,604 ERROR 11448 [-/127.0.0.1/-/59ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '%'哈哈'%' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE `%'哈哈'%` OR `desc` LIKE `%?%`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '%'哈哈'%' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE `%'哈哈'%` OR `desc` LIKE `%?%`"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11448
+hostname: PC-20200411YPTD
+
+2020-09-23 19:56:24,631 ERROR 13540 [-/127.0.0.1/-/47ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '哈哈'%' OR `desc` LIKE '%?%'' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE '%'哈哈'%' OR `desc` LIKE '%?%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '哈哈'%' OR `desc` LIKE '%?%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE '%'哈哈'%' OR `desc` LIKE '%?%'"
+name: "ER_PARSE_ERRORError"
+pid: 13540
+hostname: PC-20200411YPTD
+
+2020-09-23 19:56:51,032 ERROR 13540 [-/127.0.0.1/-/8ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '哈哈'%' OR `desc` LIKE '%?%'' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE '%'哈哈'%' OR `desc` LIKE '%?%'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '哈哈'%' OR `desc` LIKE '%?%'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE '%'哈哈'%' OR `desc` LIKE '%?%'"
+name: "ER_PARSE_ERRORError"
+pid: 13540
+hostname: PC-20200411YPTD
+
+2020-09-23 19:57:31,388 ERROR 4928 [-/127.0.0.1/-/39ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '%'哈哈'%' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE `%'哈哈'%` OR `desc` LIKE `%'哈哈'%`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '%'哈哈'%' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE `%'哈哈'%` OR `desc` LIKE `%'哈哈'%`"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4928
+hostname: PC-20200411YPTD
+
+2020-09-23 19:59:25,281 ERROR 10676 [-/127.0.0.1/-/40ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '%${'哈哈'}%' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE `%${'哈哈'}%` OR `desc` LIKE `%${'哈哈'}%`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '%${'哈哈'}%' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE `%${'哈哈'}%` OR `desc` LIKE `%${'哈哈'}%`"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10676
+hostname: PC-20200411YPTD
+
+2020-09-23 19:59:44,937 ERROR 10676 [-/127.0.0.1/-/15ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '%${'哈哈'}%' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE `%${'哈哈'}%` OR `desc` LIKE `%${'哈哈'}%`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '%${'哈哈'}%' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE `%${'哈哈'}%` OR `desc` LIKE `%${'哈哈'}%`"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 10676
+hostname: PC-20200411YPTD
+
+2020-09-23 20:00:24,019 ERROR 13120 [-/127.0.0.1/-/45ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%${'哈哈'}% OR `desc` LIKE %${'哈哈'}%' at line 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE %${'哈哈'}% OR `desc` LIKE %${'哈哈'}%
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%${'哈哈'}% OR `desc` LIKE %${'哈哈'}%' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE %${'哈哈'}% OR `desc` LIKE %${'哈哈'}%"
+name: "ER_PARSE_ERRORError"
+pid: 13120
+hostname: PC-20200411YPTD
+
+2020-09-23 20:02:32,869 ERROR 13228 [-/127.0.0.1/-/38ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '% '哈哈' %' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE `% '哈哈' %` OR `desc` LIKE `% '哈哈' %`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '% '哈哈' %' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE `% '哈哈' %` OR `desc` LIKE `% '哈哈' %`"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 13228
+hostname: PC-20200411YPTD
+
+2020-09-23 20:03:35,638 ERROR 11032 [-/127.0.0.1/-/60ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '%'哈哈'%' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE `%'哈哈'%` OR `desc` LIKE `%'哈哈'%`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '%'哈哈'%' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE `%'哈哈'%` OR `desc` LIKE `%'哈哈'%`"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11032
+hostname: PC-20200411YPTD
+
+2020-09-23 20:04:33,849 ERROR 2268 [-/127.0.0.1/-/119ms GET /product/findByValue?value=%E5%93%88%E5%93%88] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column ''%哈哈%'' in 'where clause'
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM product WHERE pname LIKE `'%哈哈%'` OR `desc` LIKE `'%哈哈%'`
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column ''%哈哈%'' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pname LIKE `'%哈哈%'` OR `desc` LIKE `'%哈哈%'`"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 2268
+hostname: PC-20200411YPTD
+
+2020-09-24 13:28:18,166 ERROR 5816 nodejs.ClusterClientNoResponseError: client no response in 6114544ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5816
+hostname: PC-20200411YPTD
+
+2020-09-24 18:26:40,476 ERROR 5816 nodejs.ClusterClientNoResponseError: client no response in 4118192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5816
+hostname: PC-20200411YPTD
+
+2020-09-24 19:39:53,238 ERROR 5264 [-/127.0.0.1/-/150ms POST /order/add] nodejs.ER_WRONG_VALUE_COUNT_ON_ROWError: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into `order` (oid,list, aid, uid, summary, total, status ) values ('5c646e0300826d7836e3','[\"e19f6a355be8ac3479bd\"]','3e9ceda7a1c3bfc6ef17','db2ad7d1f211f42225d3',24600,`pid` = 'e19f6a355be8ac3479bd', `pname` = '哈哈哈', `isUp` = 0, `imgUrl` = 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg', `sales` = '21231', `original_price` = '1221', `sale_price` = '123', `mode` = '自营', `s_type` = 0, `t_type` = 0, `cid` = NULL, `carousel` = 'ashdkjsadnj', `desc` = 'sadhjksasadjkasd', `num` = 2, `isCheck` = true,2)
+code: "ER_WRONG_VALUE_COUNT_ON_ROW"
+errno: 1136
+sqlMessage: "Column count doesn't match value count at row 1"
+sqlState: "21S01"
+index: 0
+sql: "insert into `order` (oid,list, aid, uid, summary, total, status ) values ('5c646e0300826d7836e3','[\\\"e19f6a355be8ac3479bd\\\"]','3e9ceda7a1c3bfc6ef17','db2ad7d1f211f42225d3',24600,`pid` = 'e19f6a355be8ac3479bd', `pname` = '哈哈哈', `isUp` = 0, `imgUrl` = 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg', `sales` = '21231', `original_price` = '1221', `sale_price` = '123', `mode` = '自营', `s_type` = 0, `t_type` = 0, `cid` = NULL, `carousel` = 'ashdkjsadnj', `desc` = 'sadhjksasadjkasd', `num` = 2, `isCheck` = true,2)"
+name: "ER_WRONG_VALUE_COUNT_ON_ROWError"
+pid: 5264
+hostname: PC-20200411YPTD
+
+2020-09-24 21:32:23,918 ERROR 5264 [-/127.0.0.1/-/61ms POST /order/add] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'list' at row 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into `order` (oid,list, aid, uid, summary, total, status ) values ('9aacc985a7b2713cadd4','[{\"pid\":\"83a8707c684961cabd5f\",\"pname\":\"壳牌机油\",\"isUp\":1,\"imgUrl\":\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\",\"sales\":\"29999\",\"original_price\":\"120\",\"sale_price\":\"98\",\"mode\":\"团购\",\"s_type\":0,\"t_type\":0,\"cid\":null,\"carousel\":\"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545168918,2289094124&fm=26&gp=0.jpg\",\"desc\":\"大河弯弯向东流，就是这么牛！\",\"num\":1,\"isCheck\":true},{\"pid\":\"e19f6a355be8ac3479bd\",\"pname\":\"哈哈哈\",\"isUp\":0,\"imgUrl\":\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\",\"sales\":\"21231\",\"original_price\":\"1221\",\"sale_price\":\"123\",\"mode\":\"自营\",\"s_type\":0,\"t_type\":0,\"cid\":null,\"carousel\":\"ashdkjsadnj\",\"desc\":\"sadhjksasadjkasd\",\"num\":1,\"isCheck\":true}]','2303d70281f4de358791','db2ad7d1f211f42225d3',221,2,2)
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'list' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into `order` (oid,list, aid, uid, summary, total, status ) values ('9aacc985a7b2713cadd4','[{\\\"pid\\\":\\\"83a8707c684961cabd5f\\\",\\\"pname\\\":\\\"壳牌机油\\\",\\\"isUp\\\":1,\\\"imgUrl\\\":\\\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\\\",\\\"sales\\\":\\\"29999\\\",\\\"original_price\\\":\\\"120\\\",\\\"sale_price\\\":\\\"98\\\",\\\"mode\\\":\\\"团购\\\",\\\"s_type\\\":0,\\\"t_type\\\":0,\\\"cid\\\":null,\\\"carousel\\\":\\\"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545168918,2289094124&fm=26&gp=0.jpg\\\",\\\"desc\\\":\\\"大河弯弯向东流，就是这么牛！\\\",\\\"num\\\":1,\\\"isCheck\\\":true},{\\\"pid\\\":\\\"e19f6a355be8ac3479bd\\\",\\\"pname\\\":\\\"哈哈哈\\\",\\\"isUp\\\":0,\\\"imgUrl\\\":\\\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\\\",\\\"sales\\\":\\\"21231\\\",\\\"original_price\\\":\\\"1221\\\",\\\"sale_price\\\":\\\"123\\\",\\\"mode\\\":\\\"自营\\\",\\\"s_type\\\":0,\\\"t_type\\\":0,\\\"cid\\\":null,\\\"carousel\\\":\\\"ashdkjsadnj\\\",\\\"desc\\\":\\\"sadhjksasadjkasd\\\",\\\"num\\\":1,\\\"isCheck\\\":true}]','2303d70281f4de358791','db2ad7d1f211f42225d3',221,2,2)"
+name: "ER_DATA_TOO_LONGError"
+pid: 5264
+hostname: PC-20200411YPTD
+
+2020-09-24 21:33:12,249 ERROR 5264 [-/127.0.0.1/-/11ms POST /order/add] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'list' at row 1
+    at Query.Sequence._packetToError (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (F:\111111实训一\练习\day9.8\server\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:199:23)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (F:\111111实训一\练习\day9.8\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\111111实训一\练习\day9.8\server\node_modules\_ali-rds@3.4.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: insert into `order` (oid,list, aid, uid, summary, total, status ) values ('76e36ef0042862c817b5','[{\"pid\":\"83a8707c684961cabd5f\",\"pname\":\"壳牌机油\",\"isUp\":1,\"imgUrl\":\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\",\"sales\":\"29999\",\"original_price\":\"120\",\"sale_price\":\"98\",\"mode\":\"团购\",\"s_type\":0,\"t_type\":0,\"cid\":null,\"carousel\":\"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545168918,2289094124&fm=26&gp=0.jpg\",\"desc\":\"大河弯弯向东流，就是这么牛！\",\"num\":1,\"isCheck\":true},{\"pid\":\"e19f6a355be8ac3479bd\",\"pname\":\"哈哈哈\",\"isUp\":0,\"imgUrl\":\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\",\"sales\":\"21231\",\"original_price\":\"1221\",\"sale_price\":\"123\",\"mode\":\"自营\",\"s_type\":0,\"t_type\":0,\"cid\":null,\"carousel\":\"ashdkjsadnj\",\"desc\":\"sadhjksasadjkasd\",\"num\":1,\"isCheck\":true}]','2303d70281f4de358791','db2ad7d1f211f42225d3',221,2,2)
+code: "ER_DATA_TOO_LONG"
+errno: 1406
+sqlMessage: "Data too long for column 'list' at row 1"
+sqlState: "22001"
+index: 0
+sql: "insert into `order` (oid,list, aid, uid, summary, total, status ) values ('76e36ef0042862c817b5','[{\\\"pid\\\":\\\"83a8707c684961cabd5f\\\",\\\"pname\\\":\\\"壳牌机油\\\",\\\"isUp\\\":1,\\\"imgUrl\\\":\\\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\\\",\\\"sales\\\":\\\"29999\\\",\\\"original_price\\\":\\\"120\\\",\\\"sale_price\\\":\\\"98\\\",\\\"mode\\\":\\\"团购\\\",\\\"s_type\\\":0,\\\"t_type\\\":0,\\\"cid\\\":null,\\\"carousel\\\":\\\"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3545168918,2289094124&fm=26&gp=0.jpg\\\",\\\"desc\\\":\\\"大河弯弯向东流，就是这么牛！\\\",\\\"num\\\":1,\\\"isCheck\\\":true},{\\\"pid\\\":\\\"e19f6a355be8ac3479bd\\\",\\\"pname\\\":\\\"哈哈哈\\\",\\\"isUp\\\":0,\\\"imgUrl\\\":\\\"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2118358001,605459471&fm=26&gp=0.jpg\\\",\\\"sales\\\":\\\"21231\\\",\\\"original_price\\\":\\\"1221\\\",\\\"sale_price\\\":\\\"123\\\",\\\"mode\\\":\\\"自营\\\",\\\"s_type\\\":0,\\\"t_type\\\":0,\\\"cid\\\":null,\\\"carousel\\\":\\\"ashdkjsadnj\\\",\\\"desc\\\":\\\"sadhjksasadjkasd\\\",\\\"num\\\":1,\\\"isCheck\\\":true}]','2303d70281f4de358791','db2ad7d1f211f42225d3',221,2,2)"
+name: "ER_DATA_TOO_LONGError"
+pid: 5264
+hostname: PC-20200411YPTD
+
+2020-09-25 07:53:01,502 ERROR 2476 nodejs.ClusterClientNoResponseError: client no response in 381982ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2476
+hostname: PC-20200411YPTD
+
+2020-09-25 13:29:20,557 ERROR 2476 nodejs.ClusterClientNoResponseError: client no response in 6216685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2476
+hostname: PC-20200411YPTD
+
+2020-09-25 16:43:02,936 ERROR 11492 [-/127.0.0.1/-/3ms GET /product/getList] nodejs.TypeError: this.service.product.getList is not a function
+    at ProductController.getList (F:\111111实训一\练习\day9.8\server\app\controller\product.js:73:47)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 11492
+hostname: PC-20200411YPTD
+
+2020-09-25 16:43:06,554 ERROR 11492 [-/127.0.0.1/-/2ms GET /product/getList] nodejs.TypeError: this.service.product.getList is not a function
+    at ProductController.getList (F:\111111实训一\练习\day9.8\server\app\controller\product.js:73:47)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 11492
+hostname: PC-20200411YPTD
+
+2020-09-25 16:43:08,919 ERROR 11492 [-/127.0.0.1/-/2ms GET /product/getList] nodejs.TypeError: this.service.product.getList is not a function
+    at ProductController.getList (F:\111111实训一\练习\day9.8\server\app\controller\product.js:73:47)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 11492
+hostname: PC-20200411YPTD
+
+2020-09-25 16:43:12,391 ERROR 11492 [-/127.0.0.1/-/2ms GET /product/getList] nodejs.TypeError: this.service.product.getList is not a function
+    at ProductController.getList (F:\111111实训一\练习\day9.8\server\app\controller\product.js:73:47)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 11492
+hostname: PC-20200411YPTD
+
+2020-09-25 16:43:51,623 ERROR 11492 [-/127.0.0.1/-/2ms GET /product/getList] nodejs.TypeError: this.service.product.getList is not a function
+    at ProductController.getList (F:\111111实训一\练习\day9.8\server\app\controller\product.js:73:47)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 11492
+hostname: PC-20200411YPTD
+
+2020-09-25 16:43:57,982 ERROR 11492 [-/127.0.0.1/-/2ms GET /product/getList] nodejs.TypeError: this.service.product.getList is not a function
+    at ProductController.getList (F:\111111实训一\练习\day9.8\server\app\controller\product.js:73:47)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 11492
+hostname: PC-20200411YPTD
+
+2020-09-25 16:52:22,875 ERROR 11492 [-/127.0.0.1/-/1ms GET /product/getList] nodejs.TypeError: this.service.product.getList is not a function
+    at ProductController.getList (F:\111111实训一\练习\day9.8\server\app\controller\product.js:73:47)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\111111实训一\练习\day9.8\server\node_modules\_egg-core@4.18.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\111111实训一\练习\day9.8\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 11492
+hostname: PC-20200411YPTD
+
+2020-09-25 21:04:08,510 ERROR 5908 nodejs.ClusterClientNoResponseError: client no response in 77041ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\111111实训一\练习\day9.8\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 5908
+hostname: PC-20200411YPTD
+
